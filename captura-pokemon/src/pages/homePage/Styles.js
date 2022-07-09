@@ -15,10 +15,10 @@ export const Div = styled.div`
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border: 1px solid grey;
+        border: 1px solid #99CC32;
         margin-top: 25px;
         gap: 1em;
-        box-shadow: 1px 1px 4px 1px grey;
+        box-shadow: 1px 1px 2px 1px #99CC32;
     }
 
     img{
@@ -32,12 +32,12 @@ export const Div = styled.div`
 
     p{
         font-size:1.5em ;
-        color: green;
+        color: #3470b4F3;
     }
 
     button{
         padding: 10px;
-        border: 1px solid black;
+        border: 1px solid #99CC32;
         border-radius: 21px;
         margin-bottom: 10px;
         background-color: white;
@@ -45,8 +45,8 @@ export const Div = styled.div`
         cursor: pointer;
         transition: .3s linear;
         &:hover{
-            background-color: #ff000090;
-            color: white;
+            background-color: #99CC33;
+            color: #3470b4F3;
         }
 
     }

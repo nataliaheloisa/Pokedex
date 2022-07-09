@@ -9,7 +9,8 @@ export const Container = styled.div`
 `;
 
 export const Loading = styled.p`
-  font-size: 4em;
+color: #3470b4F9;
+  font-size: 3em;
 `;
 
 export const Details = styled.div`
@@ -20,19 +21,29 @@ export const Details = styled.div`
   flex-wrap: wrap;
   gap: 4em;
   align-items: center;
+
   h1 {
+    color: #3470b4F9;
     text-align: center;
   }
 `;
 
 export const Poke = styled.div`
-  background-color: #c0c0c0;
+  background-color: #99CC33;
+  opacity: .9;
   border-radius: 21px;
   padding: 1em;
   width: 45%;
+
   img {
     width: 100%;
+    transition: .3s linear;
+    cursor: pointer;
+      &:hover{
+        transform: scale(1.1)
+      }
   }
+
   @media screen and (max-width: 810px) {
     width: 80%;
     &:nth-child(1) {
@@ -43,15 +54,17 @@ export const Poke = styled.div`
 
 export const Stats = styled(Poke)`
   div{
-    background-color: #c0c0c0; 
+    background-color: #99CC33; 
     padding: 1em;
     margin: 1em 0;
     border-radius: 21px;
     h2 {
+      color:#3470b4F9;
       text-align: center;
       padding: .5em;
     }
     h3 {
+      color: #3470b4F9;
       text-align: center;
     }
     ul {
@@ -60,6 +73,7 @@ export const Stats = styled(Poke)`
       justify-content: center;
     }
     h3, li {
+      color: #3470b4F9;
       padding: .5em;
     }
   }
