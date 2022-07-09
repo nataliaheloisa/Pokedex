@@ -45,10 +45,11 @@ export const Poke = styled.div`
   }
 
   @media screen and (max-width: 810px) {
-    width: 80%;
-    /* &:nth-child(1) {
+    display: block;
+    width: 100%;
+    &:nth-child(1) {
       margin-top: 5em;
-    } */
+    }
   }
 `;
 

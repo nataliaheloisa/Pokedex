@@ -53,10 +53,11 @@ export const Div = styled.div`
     }
 
     @media screen and (max-width: 810px) {
-    width: 80%;
-    /* &:nth-child(1) {
-      margin-top: 5em;
-    } */
+        display: block;
+        width: 80%;
+        &:nth-child(1) {
+        margin-top: 5em;
+        }
   }
 
 `;
