@@ -28,6 +28,7 @@ export const Div = styled.div`
         &:hover{
             transform: scale(1.1);
         }
+        
     }
 
     p{
@@ -50,6 +51,13 @@ export const Div = styled.div`
         }
 
     }
+
+    @media screen and (max-width: 810px) {
+    width: 100%;
+    &:nth-child(1) {
+      margin-top: 5em;
+    }
+  }
 
 `;
 

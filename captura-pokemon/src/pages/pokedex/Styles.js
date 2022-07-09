@@ -51,6 +51,12 @@ export const Div = styled.div`
 
     }
 
+    @media screen and (max-width: 810px) {
+    width: 100%;
+    &:nth-child(1) {
+      margin-top: 5em;
+    }
+
 `;
 
 export const Container = styled.div`
