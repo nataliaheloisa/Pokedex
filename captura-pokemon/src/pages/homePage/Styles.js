@@ -54,15 +54,19 @@ export const Div = styled.div`
 
     @media screen and (max-width: 810px) {
     width: 80%;
-    &:nth-child(1) {
+    /* &:nth-child(1) {
       margin-top: 5em;
-    }
+    } */
   }
 
 `;
 
 export const Container = styled.div`
     width: 100%;
-    padding-bottom: 25px;    
+    padding-bottom: 25px;  
+    
+    @media screen and (max-width: 810px) {
+    width: 80%;
+  }
 
 `;
